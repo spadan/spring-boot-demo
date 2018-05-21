@@ -17,7 +17,7 @@ public class HelloController {
 
     @GetMapping("hello")
     public String hello() {
-        logger.debug("哈哈，访问成功了");
+        logger.debug("哈哈，访问成功了,你的呢");
         return "hello";
     }
 }
